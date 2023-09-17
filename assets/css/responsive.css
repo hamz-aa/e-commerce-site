@@ -10,6 +10,11 @@
     .home .home-banner .home-banner-text {
         transform: translate(-80%, -50%);
     }
+
+    /* offer css  */
+    .offers .offer-box .offer-info .heading-bigger {
+        font-size: 3rem;
+    }
 }
 
 @media (max-width: 991px){
@@ -47,6 +52,11 @@
 
     .home .slider-icon {
         font-size: 2rem;
+    }
+
+    /* product css  */
+    .products .up_to_content h2 {
+        font-size: 0.75rem;
     }
 }
 
