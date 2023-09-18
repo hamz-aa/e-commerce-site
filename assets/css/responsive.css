@@ -15,12 +15,23 @@
     .offers .offer-box .offer-info .heading-bigger {
         font-size: 3rem;
     }
+
+    /* special css  */
+    .special .countdown-container .countdown-counter li {
+        padding: 1.5rem 1rem; 
+    }
 }
 
 @media (max-width: 991px){
     /* home css  */
     .home .home-banner .home-banner-text {
         transform: translate(-66%, -50%);
+    }
+
+    /* special css  */
+    .special .countdown-container {
+        padding-top: 1rem;
+        padding-bottom: 5rem;
     }
 }
 
@@ -57,6 +68,15 @@
     /* product css  */
     .products .up_to_content h2 {
         font-size: 0.75rem;
+    }
+
+    /* special css  */
+    .special {
+        padding: 4rem 0;
+    }
+    .special .countdown-container .countdown-counter li {
+        padding: 1rem;
+        width: 20%;
     }
 }
 
