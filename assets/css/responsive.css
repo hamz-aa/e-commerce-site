@@ -33,6 +33,14 @@
         padding-top: 1rem;
         padding-bottom: 5rem;
     }
+
+    /* testimonial css  */
+    .testimonial .carousel-control-prev {
+        left: -1.75rem;
+    }
+    .testimonial .carousel-control-next {
+        right: -1.75rem;
+    }
 }
 
 @media (max-width: 767px){
@@ -77,6 +85,15 @@
     .special .countdown-container .countdown-counter li {
         padding: 1rem;
         width: 20%;
+    }
+
+    /* testimonial css  */
+    .testimonial .testimonial-wrapper {
+        padding: 1rem;
+    }
+    .testimonial .carousel-control-prev,
+    .testimonial .carousel-control-next {
+        display: none;
     }
 }
 
