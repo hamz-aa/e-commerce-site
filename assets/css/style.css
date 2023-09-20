@@ -58,8 +58,7 @@ p{
     padding:0.5rem 1rem;
     text-align: center;
 }
-#header .navbar-nav .nav-item .nav-link:hover,
-#header .navbar-nav .nav-item .nav-link.active{
+#header .navbar-nav .nav-item .nav-link:hover{
     color:var(--text-danger);
 }
 #header .navbar-toggler-icon{
@@ -446,4 +445,36 @@ p{
 .contact .textarea:focus{
     outline: none;
     border: none;
+}
+
+/* footer css  */
+.copyright {
+    background-color: var(--bg-danger);
+}
+.copyright p,
+.copyright a {
+    color: var(--text-white);
+}
+
+/* scroll to top css  */
+#scrollUp {
+    position: fixed;
+    right: 2%;
+    bottom: 3%;
+    height: 2.813rem;
+    width: 2.5rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    cursor: pointer;
+    z-index: 500;
+    display: none;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+    background-color: var(--bg-danger);
+}
+#scrollUp span {
+    line-height: 2.625rem;
+}
+#scrollUp.scrollActive {
+    display: block;
 }

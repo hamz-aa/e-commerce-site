@@ -97,9 +97,12 @@
     }
 }
 
-@media (min-width: 330px) {
+@media (max-width: 330px) {
     /* home css  */
     .home .home-banner .home-banner-text h2 {
         font-size: 1rem;
+    }
+    .products .up_to_content h2 {
+        font-size: 0.625rem;
     }
 }
